@@ -1,0 +1,32 @@
+<?
+$now=time();
+
+$xmas=1451001601;
+
+$seconds=$xmas-$now;
+
+echo $seconds." seconds to christmas ";
+
+$minutes=$seconds/60;
+
+echo $minutes." minutes to chrsitmas ";
+
+echo "<br><br>";
+echo $minutes." minutes to christmas ";
+
+$hours=$minutes/60;
+
+echo $hours." hours to christrmas ";
+
+echo "<br><br>";
+
+$days=$hours/24;
+
+echo $days." days to chrsitmas";
+
+echo "<br><br>";
+
+$days=floor($days);
+echo $days;
+
+?>
